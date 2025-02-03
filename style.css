@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+}
+:root{
+    --primary-red: rgb(229, 9, 20);
+    --padding-inline-section: 140px
+}
+.bg-image {
+    height: 100vh;
+    background-image: 
+  linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+  linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+  url('https://assets.nflxext.com/ffe/siteui/vlv3/2f5a878d-bbce-451b-836a-398227a34fbf/web/IN-en-20241230-TRIFECTA-perspective_5ab944a5-1a71-4f6d-b341-8699d0491edd_large.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.nav{
+    width: 100%;
+    height: 90px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-left img{
+    height: 80px;
+    width: 200px;
+    margin-left: 130px;
+}
+.nav-right{
+    display: flex;
+    margin-right: 150px;
+}
+.signin button{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--primary-red);
+    padding: 8px 17px; 
+}
+.language button{
+    border: 1px solid rgb(149, 149, 149);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 14px;
+    background-color: transparent;
+    color: white;
+    margin-right: 20px;
+}
+.language button > img{
+    mix-blend-mode:lighten;
+}
+
+/* center content */
+
+.center-content{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    overflow: hidden;
+    /* background-color: #000000; */
+}
+.text1, .text2, .text3, .text4 {
+    color: white;
+}
+.text1, .text2{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.text3{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.text4{
+    font-size: 18px;
+}
+.email_started input{
+    font-size: 16px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 7px;
+    background-color: transparent;
+    padding: 15px 160px 15px 15px;
+}
+.email_started input::placeholder{
+    color: rgb(187, 187, 187);
+}
+.email_started button{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--primary-red);
+    padding: 13px 25px; 
+    margin-left: 12px;
+}
+
+/* join-section */
+
+.join-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #000000;
+    padding: 0px var(--padding-inline-section);
+    overflow: hidden;
+}
+.join-text{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.card{
+    width: 280px;
+    margin: 12px 5px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    gap: 30px;
+    padding: 12px 10px;
+    border-radius: 15px;
+    background-image: linear-gradient(to top left, #050113, #232230);
+    background-image: linear-gradient(to bottom right, #04115e, #232230);
+}
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.card-para{
+    font-size: 18px;
+    color: rgb(163, 163, 163);
+}
+.card-img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; /* Ensures the image is in the bottom-right corner */
+}
+
+.faq-section{
+    height: 700px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.faq-text{
+    width: 80vw;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.faq{
+    background-color: #2D2D2D;
+    height: 80px;
+    margin: 5px 0px;
+    width: 80vw;
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq-icon img{
+    color: white;
+}
+.center-content1{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    overflow: hidden;
+    background-color: #000000;
+}
+/* B3B3B3 */
+footer{
+    height: 500px;
+    padding: 0px var(--padding-inline-section);
+    background-color: #000000;
+    overflow: hidden;
+}
+.call{
+    padding: 40px 0px;
+    color: #B3B3B3;
+    font-size: 18px;
+}
+.line{
+    padding: 7px 0px;
+    text-decoration: underline;
+}
+.footer-boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 65vw;
+    margin: 20px 0px;
+    font-size: 15px;
+    color: #B3B3B3;
+}
+.netflix-india{
+    color: #B3B3B3;
+}
+.language1{
+    margin: 40px 0px;
+}

@@ -1,0 +1,210 @@
+@media screen and (max-width:1024px){
+    .join-section{
+        padding: 0px 50px;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: auto;
+        display: flex;
+        flex-basis: 43%;
+    }
+}
+@media screen and (max-width:768px){
+    .nav-left img{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .nav-right {
+        margin-right: 40px;
+        margin-top: 30px;
+    }
+    .text1, .text2{
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .text3{
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .text4{
+        font-size: 12px;
+    }
+    .email_started{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .email_started input{
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    .card{
+        width: auto;
+        display: flex;
+        flex-basis: 83%;
+    }
+}
+@media screen and (max-width:576px){
+    .nav-left img{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .nav-right {
+        margin-right: 40px;
+        margin-top: 10px;
+    }
+    .signin button{
+        font-size: 11px;
+        padding: 5px 13px;
+    }
+    .language button{
+        display: flex;
+        align-items: center;
+        padding: 3px 5px;
+        margin-right: 10px;
+    }
+
+    .text1, .text2{
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .text3{
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .text4{
+        font-size: 12px;
+    }
+    .email_started{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .email_started input{
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    .language1{
+        margin: 20px 0px;
+    }
+    /* footer{
+        padding: 0px 40px;
+    }
+    .footer-boxes{
+        width: 90vw;
+        margin-right: 40px;
+    } */
+    .call{
+        padding: -20px;
+     }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 850px;
+    }
+    .footer-boxes{
+        width: 90vw;
+        margin-right: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+    }
+
+}
+@media screen and (max-width:425px){
+    .nav-left img{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .nav-right {
+        margin-right: 40px;
+        margin-top: 0px;
+    }
+    .signin button{
+        font-size: 9px;
+        padding: 5px 8px;
+        margin-top: 30px;
+    }
+    .language button{
+        margin-top: 30px;
+    }
+
+    .text1, .text2{
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .text3{
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .text4{
+        font-size: 12px;
+    }
+    .email_started{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .email_started input{
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .faq-text{
+        width: 80vw;
+        font-size: 27px;
+        color: white;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    .faq{
+        background-color: #2D2D2D;
+        height: 70px;
+        margin: 5px 0px;
+        width: 80vw;
+        font-size: 23px;
+        color: white;
+        font-weight: 600;
+        display: flex;
+        padding: 0px 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 850px;
+    }
+    .footer-boxes{
+        width: 90vw;
+        margin-right: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+    }
+}
